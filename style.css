@@ -1,5 +1,5 @@
 html {
-    height: 7000px;
+    height: 10000px;
     margin: auto;
     width:1920px;
 }
@@ -18,7 +18,7 @@ html {
 body {
     height:70000px;
     min-height: 100vh;
-    background: url('Homepage_Content.jpg') no-repeat; position: relative; background-size: cover;
+    background: url('Homepage_Content.jpg') no-repeat; position: relative; background-size: 100%;
     background-color: black
 }
 
@@ -35,6 +35,7 @@ body {
     z-index: 100;
 
 }
+
 
 .logo {
     font-size: 32px;
@@ -274,9 +275,10 @@ html, body {
     background-color:black;
     display: flex;
     flex-direction: column;
-    margin-top: auto;
+    margin-top: 4000px;
     position: relative;
-    top: 4000px;
+    bottom: 0;
+
 }
 
 .footercontainer{
