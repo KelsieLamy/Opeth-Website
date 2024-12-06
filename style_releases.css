@@ -1,0 +1,157 @@
+html {
+    height: 7000px;
+    overflow: auto;
+    margin: auto;
+    width:1920px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Garamond", serif;
+}
+
+html {
+    height: 100%
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(161, 19, 19);
+    width: 1000px;
+    max-width: 80%;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale (1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;  
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 10px 15px
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, .5);
+    pointer-events: none;
+
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+body {
+    min-height: 100vh;
+    color: white;
+    background-color: black
+}
+
+#logo {
+    position: fixed;
+    height: auto;
+    left: 0px;
+    width: 25px; 
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.wrapper-main {
+    position: relative;
+    top: 3940px;
+    margin-left: 1220px;
+}
+
+.ALBUMS {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+
+.gallery {
+    display:inline-block;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.gallery .description {
+   padding: 10px; 
+   text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid rgb(58, 58, 58);
+}
+

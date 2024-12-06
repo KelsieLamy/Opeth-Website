@@ -1,0 +1,301 @@
+html {
+    height: 7000px;
+    overflow: auto;
+    margin: auto;
+    width:1920px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Garamond", serif;
+}
+
+html {
+    height: 100%
+}
+body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+.btn {
+    position: absolute;
+    top: 288px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-2 {
+    position: absolute;
+    top: 450px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-3 {
+    position: absolute;
+    top: 612px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-4 {
+    position: absolute;
+    top: 774px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-5 {
+    position: absolute;
+    top: 936px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-6 {
+    position: absolute;
+    top: 936px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-6 {
+    position: absolute;
+    top: 1098px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-7 {
+    position: absolute;
+    top: 1260px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-8 {
+    position: absolute;
+    top: 1428px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-9 {
+    position: absolute;
+    top: 1589px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-10 {
+    position: absolute;
+    top: 1757px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-11 {
+    position: absolute;
+    top: 230px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+ .btn-12 {
+    position: absolute;
+    top: 390px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-13 {
+    position: absolute;
+    top: 550px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+ .btn-14 {
+    position: absolute;
+    top: 715px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ }
+
+ .btn-15 {
+    position: absolute;
+    top: 878px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+ .btn-16 {
+    position: absolute;
+    top: 1040px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-17 {
+    position: absolute;
+    top: 1200px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-18 {
+    position: absolute;
+    top: 1369px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-19 {
+    position: absolute;
+    top: 1530px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-20 {
+    position: absolute;
+    top: 15492px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+ .btn-21 {
+    position: absolute;
+    top: 1695px;
+    margin-left: 650px;
+    height: 50px;
+    width:240px;
+    border-width: 5px;
+ 
+ }
+
+ .btn-22 {
+    position: absolute;
+    top: 2100px;
+    margin-left: 220px;
+    height: 10px;
+    width:270px;
+    border-width: 5px;
+ 
+ }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.title {
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.wrapper-main {
+    position: relative;
+    top: 3940px;
+    margin-left: 1220px;
+}
